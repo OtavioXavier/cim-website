@@ -14,7 +14,7 @@ export default function ButtonTeam(prop: ButtonTeamProps) {
   }
 
   return (
-    <button className='bg-medium-white w-28 h-28 rounded-full hover:scale-125 transition' onClick={handleClick}>
+    <button className='bg-medium-white w-28 h-28 rounded-full hover:scale-125 transition-all' onClick={handleClick}>
          <h1 className={`${jost.className} font-medium text-4xl`}>{prop.title}</h1>
     </button>
   )

@@ -11,7 +11,7 @@ export default function ContainerCard(prop: CardTeamProps) {
   }
 
   return (
-    <div className="flex justify-center items-center flex-col gap-12">
+    <div className="flex justify-center items-center flex-col gap-12 transition-all">
       <h2 className="bg-linha-inferior text-3xl font-medium">{prop.title}</h2>
       <div onClick={handleClick}>
       {prop.children}
